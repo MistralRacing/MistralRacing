@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sponsors - Mistral Racing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="parteners.css">
+</head>
+<body>
+    <header>
+        <img src="logo_mistral_racing-removebg-preview.png" alt="Logo Mistral Racing" class="logo">
+    
+        <div class="burger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+    
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="team.html">Équipe</a></li>
+                <li><a href="event.html">Événements</a></li>
+                <li><a href="parteners.html">Sponsors</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <section class="partners">
+        <div class="container">
+            <h2>Nos Partenaires</h2>
+            <div class="partner">
+                <img src="logo.png" alt="Sponsor 1">
+                <p>Partenaire officiel de Mistral Racing, fournissant des technologies de pointe pour améliorer nos performances.</p>
+            </div>
+            <div class="partner">
+                <img src="sponsor2.png" alt="Sponsor 2">
+                <p>Fournisseur de pièces de rechange et de systèmes de motorisation pour nos voitures de course.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mistral Racing. Tous droits réservés.</p>
+    </footer>
+</body>
+
+<script>
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('nav');
+
+    burger.addEventListener('click', () => {
+        burger.classList.toggle('active');
+        nav.classList.toggle('show');
+    });
+</script>
+
+</html>

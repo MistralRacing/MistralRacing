@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos - Mistral Racing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <header>
+        <img src="logo_mistral_racing-removebg-preview.png" alt="Logo Mistral Racing" class="logo">
+    
+        <div class="burger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+    
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="team.html">Équipe</a></li>
+                <li><a href="event.html">Événements</a></li>
+                <li><a href="parteners.html">Sponsors</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+        
+    <section class="about">
+        <div class="container">
+            <h2>À propos du porjet F1 InSchool</h2>
+            <p>F1 in Schools est une compétition internationale unique en son genre, qui propose aux lycéens et collégiens de se plonger dans l’univers de la Formule 1, tout en développant des compétences concrètes en ingénierie, marketing, design, gestion de projet et travail d’équipe.</p>
+            <p>Le défi ? Concevoir, modéliser, fabriquer et faire courir une mini-voiture de Formule 1 propulsée par une cartouche de CO₂. Mais le projet va bien au-delà de la simple performance technique : chaque équipe doit créer une identité visuelle, élaborer une stratégie de communication, rechercher des sponsors, tenir un portfeuille professionnel et présenter son travail devant un jury d’experts</p>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <h2>A propos de Mistral Racing</h2>
+            
+            <p>Mistral Racing est un projet scolaire mené par des lycéens de la classe de Première. Nous avons pour objectif de développer des compétences en conception, en gestion de projet, et en stratégie marketing, tout en nous amusant autour de notre passion pour les voitures de course et la compétition.</p>
+            <p>Bien que nous ne participions pas à des compétitions majeures, notre équipe est déterminée à créer quelque chose de solide et d'innovant.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mistral Racing. Tous droits réservés.</p>
+    </footer>
+</body>
+
+<script>
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('nav');
+  
+    burger.addEventListener('click', () => {
+        burger.classList.toggle('active');
+        nav.classList.toggle('show');
+    });
+  </script>
+
+</html>

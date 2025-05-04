@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Équipe - Mistral Racing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="team.css">
+</head>
+<body>
+    <header>
+        <img src="logo_mistral_racing-removebg-preview.png" alt="Logo Mistral Racing" class="logo">
+    
+        <div class="burger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+    
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="team.html">Équipe</a></li>
+                <li><a href="event.html">Événements</a></li>
+                <li><a href="parteners.html">Sponsors</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="team">
+        <div class="container">
+            <h2>Notre Équipe</h2>
+            <div class="team-member">
+                <h3>Thomas Bertolino</h3>
+                <p>Il participe à la recherche de sponsors, assure le suivi des partenariats et aide à mettre en valeur le projet auprès de l’extérieur.</p>
+            </div>
+            <div class="team-member">
+                <h3>Manon Ruf</h3>
+                <p> Manon s’occupe également du côté sponsorisations et travaille sur l’aspect financier du projet.</p>
+            </div>
+            <div class="team-member">
+                <h3>Basile Jacquet</h3>
+                <p>Il est responsable de la partie informatique du projet, notamment la création du site web et la gestion des outils numériques.</p>
+            </div>
+            <div class="team-member">
+                <h3>Charlie Lefebvre</h3>
+                <p>Il contribue activement au développement du projet et participe aux différentes étapes de sa mise en œuvre.</p>
+            </div>
+            <div class="team-member">
+                <h3>Adrien Camaléonte</h3>
+                <p>Comme Charlie, Adrien est impliqué dans la conception du projet, en apportant des idées novatrices pour améliorer le design et les performances.</p>
+            </div>
+            <div class="team-member">
+                <h3>Ange </h3>
+                <p>Il travaille sur la conception technique du projet, en particulier le design et les aspects liés à la structure de notre solution.</p>
+            </div>
+        </div>
+        <a href="planning.html" class="btn">Voir notre planning</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mistral Racing. Tous droits réservés.</p>
+    </footer>
+</body>
+
+<script>
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('nav');
+  
+    burger.addEventListener('click', () => {
+        burger.classList.toggle('active');
+        nav.classList.toggle('show');
+    });
+  </script>
+
+</html>

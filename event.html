@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Événements - Mistral Racing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="event.css">
+</head>
+<body>
+    <header>
+        <img src="logo_mistral_racing-removebg-preview.png" alt="Logo Mistral Racing" class="logo">
+    
+        <div class="burger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+    
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="team.html">Équipe</a></li>
+                <li><a href="event.html">Événements</a></li>
+                <li><a href="parteners.html">Sponsors</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <section class="events">
+        <div class="container">
+            <h2>Événements à venir</h2>
+            <div class="event">
+                <div class="logo">
+                    <img src="images.png" alt="Mistral Racing Logo">
+                </div>
+                <h3>Grand Prix F1 InSchool</h3>
+                <p>Date : 20 Juillet 2025</p>
+                <p>Lieu : Circuit Paul Ricard</p>
+                <p>Une course palpitante dans notre pays d'origine. Les pilotes de Mistral Racing se préparent pour cette épreuve intense.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mistral Racing. Tous droits réservés.</p>
+    </footer>
+</body>
+<script>
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('nav');
+  
+    burger.addEventListener('click', () => {
+        burger.classList.toggle('active');
+        nav.classList.toggle('show');
+    });
+  </script>
+
+</html>
